@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Kanit-sm";
+  src: url(resources/Kanit-SemiBold.ttf) format(truetype);
+  font-display: swap;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80rem;
+  height: 100vh;
+  align-items: center;
+  padding-top: 2.5rem;
+  background-color: #404a65;
+  gap: 3.75rem;
+  font-family: "Kanit-sm";
+  color: #ECEDF0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 0px #35383f;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #35383f;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+img{
+    width: 160px;
+}
+
+button{
+    font-family: 'Kanit-sm';
+    padding: 0.5rem 2.5rem;
+    margin-top: 1.25rem;
+    background-color: #1F6FB0;
+    color: #ECEDF0;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+}
